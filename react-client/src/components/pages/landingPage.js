@@ -6,7 +6,6 @@ class LandingPage extends Component {
       <div className="centered">
       <text>Hello! Nothing much to see here just yet yknow,
       as I'm making some changes. We'll be back in a bit. -PM</text>
-
       </div>
       )
   }

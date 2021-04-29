@@ -1,7 +1,7 @@
 {
-  "name": "trial",
+  "name": "personal-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a personal website portfolio for Riki Fameli.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "postinstall": "webpack",
     "heroku-postbuild": "webpack -p"
   },
-  "author": "",
+  "author": "Riki Fameli",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -22,12 +22,24 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "body-parser": "^1.19.0",
+    "chokidar": "^3.5.1",
     "express": "^4.17.1",
     "heroku": "^7.26.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "webpack": "^3.12.0"
-  }
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-fameli/personal-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r-fameli/personal-site/issues"
+  },
+  "homepage": "https://github.com/r-fameli/personal-site#readme"
 }
