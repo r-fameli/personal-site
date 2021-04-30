@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
+import AboutSection from '../homePage/pageSections/about';
+import ExperienceSection from '../homePage/pageSections/experience';
+import ProjectsSection from '../homePage/pageSections/projects';
+import SkillsSection from '../homePage/pageSections/skills';
+import SectionContainer from '../homePage/sectionContainer';
+import SectionTabs from '../homePage/sectionTabs';
 
 function HomePage() {
   const [count, setCount] = useState(0);
   return (
     <div>
-      Home page
-      <div>
-        This is a simple div to show how React states can work in React Hooks.
-        Count: {count}
-        <button onClick={() => setCount(count + 1)}>
-          Increment count
-        </button>
-      </div>
+      <SectionTabs/>
+      <SectionContainer/>
     </div>
   );
 }

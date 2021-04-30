@@ -10,7 +10,7 @@ import HomePage from './pages/homePage.js';
 import LandingPage from './pages/landingPage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
-import AboutSection from './pageSections/about.js';
+import AboutSection from './homePage/pageSections/about.js';
 import PlaygroundPage from './pages/playground.js';
 
 class App extends Component {
@@ -19,17 +19,11 @@ class App extends Component {
       <div className="app">
         <Router>
           <Switch>
-            <div>
-              <NavBar />
-              <Route name="home" exact path="/" component={HomePage} />
-              <Route name="playground" exact path="/playground" component={PlaygroundPage}/>
-              <text>hello</text>
-              <Footer />
-            </div>
+            <Route name="home" exact path="/" component={HomePage} />
+            <Route name="playground" exact path="/playground" component={PlaygroundPage} />
           </Switch>
         </Router>
       </div>
-
     )
   }
 }
