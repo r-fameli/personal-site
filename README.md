@@ -1,6 +1,10 @@
 # Start building your own website
 This is a repository that I created to help others develop their websites in React.
 
+## Running locally
+To run locally, use the following commands:
+`npm run react-dev`  
+`npm run server-dev`
 
 
 ## Tech stack

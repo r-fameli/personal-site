@@ -4,7 +4,9 @@
   --color2: #ffc288;
   --color3: #fea82f;
   --color4: #ff6701;
+  --section-color: #fcecdd;
   --text-color: black;
+  --small-tab-height: 50px;
 }
 
 html {
@@ -27,25 +29,30 @@ html {
   --horizontal-spacing: 50px;
   background-color: var(--color1);
   margin-top: 20%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*auto auto auto auto*/
-  column-gap: var(--horizontal-spacing); 
-  padding-left: var(--horizontal-spacing);
-  padding-right: var(--horizontal-spacing);
+  display:flex;
+  justify-content: space-around;
   /* TODO fix this later */
+  margin-bottom: -3px;
 }
 
 .section-tab {
   --border-radius: 20px;
   border-top-right-radius: var(--border-radius);
   border-top-left-radius: var(--border-radius);
-  background-color: var(--color2);
   height: 50px;
+  background-color: var(--color2);
   border: 2px solid var(--color3);
 }
 
-#large-center-tab {
-  height:50px;
+.small-section-tab {
+  margin-top: 200px;
+  width: 15%;
+}
+
+.large-center-tab {
+  padding-bottom: var(--small-tab-height);
+  height: 250px;
+  width:20%
 }
 
 .section-tab > text {
@@ -59,11 +66,23 @@ html {
 }
 
 
-
 .section-container {
   border-radius: 20px;
   background-color: var(--color2);
   border: 2px solid var(--color3);
+}
+
+
+.section {
+  background-color: var(--section-color);
+  /* border: 2px solid black; */
+  margin: 5em;
+}
+
+.section-block {
+  border: 3px solid red;
+  margin: 5em;
+  min-height: 10em;
 }
 
 header {

@@ -17,27 +17,27 @@ class SectionTabs extends Component {
                     </span>)} */}
 
 
-                <span className={"section-tab"}>
+                <span className={"section-tab small-section-tab"}>
                     <text>
                         About
                     </text>
                 </span>
-                <span className={"section-tab"}>
+                <span className={"section-tab small-section-tab"}>
                     <text>
                         Experience
                     </text>
                 </span>
-                <span className={"section-tab"} id={"large-center-tab"}>
+                <span className={"section-tab large-center-tab"}>
                     <text>
                         me
                     </text>
                 </span>
-                <span className={"section-tab"}>
+                <span className={"section-tab small-section-tab"}>
                     <text>
                         Projects
                     </text>
                 </span>
-                <span className={"section-tab"}>
+                <span className={"section-tab small-section-tab"}>
                     <text>
                         Skills
                     </text>
