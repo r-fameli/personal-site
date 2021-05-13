@@ -1,3 +1,7 @@
+# NOTE:
+Not working from this template anymore! Repository for my site will become public once it has been deployed
+
+
 # Personal Portfolio Site
 
 Template retrieved from [Preda W's article on creating a personal site in React](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710) (https://github.com/pa87901/repoStarterKit). Utilizes React, React Router, Express, and Node.js.
